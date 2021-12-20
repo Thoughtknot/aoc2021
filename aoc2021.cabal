@@ -48,10 +48,11 @@ executable aoc2021
         Day17
         Day18
         Day19
+        Day20
         
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     ghc-options:      -threaded -rtsopts -with-rtsopts=-N -O2
-    build-depends:    base, network, containers, split, matrix, vector, parsec
+    build-depends:    base, network, containers, split, matrix, vector, parsec, bytestring
     hs-source-dirs:   app,src
     default-language: Haskell2010
