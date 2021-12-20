@@ -18,6 +18,7 @@ import qualified Day15
 import qualified Day16
 import qualified Day17
 import qualified Day18
+import qualified Day19
 
 main :: IO ()
 main = do
@@ -42,4 +43,5 @@ main = do
         16 -> Day16.run
         17 -> Day17.run
         18 -> Day18.run
+        19 -> Day19.run
         _ -> error $ "Unknown day: " ++ show day
