@@ -49,6 +49,7 @@ executable aoc2021
         Day18
         Day19
         Day20
+        Day21
         
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
